@@ -14,12 +14,9 @@
     .btn { display: block; width: 100%; padding: 15px; margin: 15px 0; background: #FFD700; color: #000; text-decoration: none; font-weight: bold; font-size: 18px; border-radius: 10px; border: none; cursor: pointer; }
     .section { background: #1A1A1A; padding: 25px 20px; border-radius: 15px; margin-bottom: 20px; border: 1px solid #FFD700; }
     .section h2 { color: #FFD700; font-size: 22px; margin-bottom: 15px; }
-    
-    /* NOUVEAU - FIL DE PHOTOS */
     .photo-feed { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
     .photo-feed img { width: 100%; height: 180px; object-fit: cover; border-radius: 10px; border: 2px solid #FFD700; }
     .photo-full { grid-column: span 2; height: 250px !important; }
-    
     .steps { text-align: left; margin-top: 15px; }
     .step { background: #2A2A2A; padding: 12px; margin: 10px 0; border-radius: 8px; border-left: 4px solid #FFD700; font-weight: bold; }
     form input { width: 100%; padding: 14px; margin: 10px 0; border-radius: 8px; border: 1px solid #FFD700; background: #2A2A2A; color: #fff; font-size: 16px; }
@@ -27,33 +24,29 @@
 </style>
 </head>
 <body>
-
 <div class="container">
     <div class="header">
-        <img src="logo5.jpg" alt="Logo">
+        <img src="koreofficiel_ben_cash/logo5.jpg" alt="Logo">
         <h1>Kore Officiel Cash Pro</h1>
         <p>Leader Ousman j'aide toute l'Afrique a gagné d'argent. Paiement instantané MTN, Moov, Orange, Wave, Vodacom, Airtel</p>
         <a href="#formulaire" class="btn">S'INSCRIRE</a>
     </div>
-
-    <!-- TON NOUVEAU FIL DE PHOTOS -->
     <div class="section">
         <h2>Preuves de Paiements & Activités</h2>
         <div class="photo-feed">
-            <img src="photo1.jpg" alt="paiement 1">
-            <img src="photo2.jpg" alt="paiement 2">
-            <img src="photo3.jpg" alt="photo 3" class="photo-full">
-            <img src="photo4.jpg" alt="photo 4">
-            <img src="photo5.jpg" alt="photo 5">
+            <img src="koreofficiel_ben_cash/photo1.jpg" alt="paiement 1">
+            <img src="koreofficiel_ben_cash/photo2.jpg" alt="paiement 2">
+            <img src="koreofficiel_ben_cash/photo3.jpg" alt="photo 3" class="photo-full">
+            <img src="koreofficiel_ben_cash/photo4.jpg" alt="photo 4">
+            <img src="koreofficiel_ben_cash/photo5.jpg" alt="photo 5">
         </div>
+        <p style="margin-top:15px; font-size:13px; color:#aaa;">Ajoute tes photos dans le dossier koreofficiel_ben_cash sur GitHub</p>
     </div>
-
     <div class="section">
         <h2>Opportunité du jour</h2>
         <p>Arrête de chercher. Je fais le travail pour toi. 1 vidéo = 1 paiement.</p>
         <a href="#formulaire" class="btn">REJOINDRE MAINTENANT</a>
     </div>
-
     <div class="section">
         <h2>Comment gagner</h2>
         <div class="steps">
@@ -62,7 +55,6 @@
             <div class="step">3. Être payé directement</div>
         </div>
     </div>
-
     <div class="section" id="formulaire">
         <h2>Inscris-toi maintenant</h2>
         <form onsubmit="sendToWhatsApp(); return false;">
@@ -73,10 +65,8 @@
             <button type="submit" class="btn">S'INSCRIRE</button>
         </form>
     </div>
-
     <div class="footer">© 2026 Kore Officiel Cash Pro - Leader Ousman</div>
 </div>
-
 <script>
 function sendToWhatsApp() {
     var nom = document.getElementById('nom').value;
@@ -88,4 +78,4 @@ function sendToWhatsApp() {
 }
 </script>
 </body>
-               </html>
+   </html>
